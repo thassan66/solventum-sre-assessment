@@ -1,0 +1,14 @@
+{
+  "name": "sre-webapp",
+  "version": "1.0.0",
+  "description": "SRE System Monitor Web Application (Node.js & Express)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ioredis": "^5.4.2"
+  }
+}
+
