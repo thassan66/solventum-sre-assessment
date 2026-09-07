@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: sre-monitor
+data:
+  REDIS_HOST: "redis"
+  REDIS_PORT: "6379"
+  HISTORY_LIMIT: "20"
